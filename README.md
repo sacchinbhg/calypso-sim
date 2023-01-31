@@ -7,9 +7,14 @@
 Tried and tested on ROS Noetic with Gazebo version 11
 Make sure gazebo ros 
 
-Git Clone the repo:
+Git Clone the repo into the src folder of your workspace (Usually catkin_ws):
 ```bash
 git clone https://github.com/Dreadnought-Robotics/calypso-sim
+```
+
+Compile it by:
+```bash
+catkin_make
 ```
 
 #### Dependencies
